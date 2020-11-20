@@ -11,7 +11,7 @@ export default ({ portfolioLinks }) => {
           <div className="col-lg-12 text-center">
             <h2 className="section-heading text-uppercase">My Portfolio!</h2>
             <h3 className="section-subheading text-muted">
-              Projects I am working on!
+              Projects I am working on
             </h3>
           </div>
         </div>

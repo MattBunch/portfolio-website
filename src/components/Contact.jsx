@@ -6,9 +6,9 @@ export default () => {
       <div className="container">
         <div className="row">
           <div className="col-lg-12 text-center">
-            <h2 className="section-heading text-uppercase">Contact Us</h2>
+            <h2 className="section-heading text-uppercase">Contact me</h2>
             <h3 className="section-subheading text-muted">
-              Lorem ipsum dolor sit amet consectetur.
+              Let your voice be heard! *Note I will probably not respond.
             </h3>
           </div>
         </div>

@@ -14,36 +14,18 @@ import "./App.css";
 function App() {
   const portfolioLinks = [
     {
-      title: "Threads",
-      caption: "Illustration",
+      title: "Portfolio Website",
+      caption: "Web Development",
+      clickLink: "https://github.com/MattBunch/Digital-Rain-Project",
+      photoLink:
+        "https://c8.alamy.com/comp/GWRJ0F/portfolio-written-by-hand-3d-illustration-realistic-hand-writing-on-GWRJ0F.jpg",
     },
+
     {
-      title: "Explore",
-      caption: "Graphic Design",
-    },
-    {
-      title: "Finish",
-      caption: "Identity",
-    },
-    {
-      title: "Lines",
-      caption: "Branding",
-    },
-    {
-      title: "Southwest",
-      caption: "Website Design",
-    },
-    {
-      title: "Window",
-      caption: "Photography",
-    },
-    {
-      title: "Pizza",
-      caption: "I love pizza!",
-    },
-    {
-      title: "doggie",
-      caption: "i love my doggie!",
+      title: "Digital Rain",
+      caption: "Animation",
+      clickLink: "https://github.com/MattBunch/Digital-Rain-Project",
+      photoLink: "https://i.ibb.co/Fn9V3GM/matriximage.png",
     },
   ];
 

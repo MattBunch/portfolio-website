@@ -137,7 +137,7 @@ img::-moz-selection {
 }
 #mainNav .navbar-nav .nav-item .nav-link.active,
 #mainNav .navbar-nav .nav-item .nav-link:hover {
-  color: #000000;
+  color: #00cc33;
 }
 @media (min-width: 992px) {
   #mainNav {
@@ -169,7 +169,7 @@ img::-moz-selection {
 header.masthead {
   text-align: center;
   color: #fff;
-  background-image: url(../img/header-bg.jpg);
+  background-image: url(../img/header-funny.jpg); /* TODO: change this image */
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -243,7 +243,7 @@ header.masthead .intro-text .intro-heading {
   -webkit-transition: all ease 0.5s;
   transition: all ease 0.5s;
   opacity: 0;
-  background: rgba(254, 209, 54, 0.9);
+  background: rgba(0, 255, 64, 0.9);
 }
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
   opacity: 1;
