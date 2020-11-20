@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# Matt Bunch Portfolio Website
+
+Portfolio website for Matt Bunch showcasing the website.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
