@@ -16,7 +16,7 @@ function App() {
     {
       title: "Portfolio Website",
       caption: "Web Development",
-      clickLink: "https://github.com/MattBunch/Digital-Rain-Project",
+      clickLink: "https://github.com/MattBunch/portfolio-website",
       photoLink:
         "https://c8.alamy.com/comp/GWRJ0F/portfolio-written-by-hand-3d-illustration-realistic-hand-writing-on-GWRJ0F.jpg",
     },

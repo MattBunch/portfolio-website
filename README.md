@@ -1,8 +1,34 @@
 # Matt Bunch Portfolio Website
 
-Portfolio website for Matt Bunch showcasing the website.
+My personal portfolio website.
+
+Special thanks to Lavish Web Creations for the inspiration and tutorial for how to get started.
+
+https://youtu.be/RcfvUWJqHOs
+
+Thanks for Bootstrap for the free theme.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Devlog:
+
+### 20/11/2020
+
+Beginning of the program. Followed the instructions of the tutorial video. Afterwards, I made each individual element a component similar to the Portfolio component. This makes it easy to drop each individual component in and out of the website by just commenting and uncommenting out the components inside of `App.js`.
+
+Added my own custom photos.
+
+Changed the primary coloring of the website from yellow to green.
+
+### 21/11/2020
+
+I plan to make each component easily extendable, similar to the Portfolio component. Following components need to be editted:
+
+- Navbar: each section needs its own tab and link in the navbar
+- About: each "About" node needs to be its own module
+- Services:
+
+Need to find some way of getting the About tab to have pitures inside of them.
 
 ## Available Scripts
 

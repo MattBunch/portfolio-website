@@ -169,7 +169,7 @@ img::-moz-selection {
 header.masthead {
   text-align: center;
   color: #fff;
-  background-image: url(../img/header-funny.jpg); /* TODO: change this image */
+  background-image: url(../img/large-header-image-space.jpeg);
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;

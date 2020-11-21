@@ -7,7 +7,7 @@ export default () => {
         <div className="row align-items-center">
           <div className="col-md-4">
             <span className="copyright">
-              Copyright &copy; Your Website 2019
+              Copyright &copy; Matthew Bunch 2020
             </span>
           </div>
           <div className="col-md-4">
