@@ -4,7 +4,6 @@ import Header from "./components/Header";
 import Services from "./components/Services";
 import Portfolio from "./components/Portfolio";
 import About from "./components/About";
-import About2 from "./components/About2";
 import Team from "./components/Team";
 import Py5 from "./components/Py5";
 import Contact from "./components/Contact";
@@ -44,6 +43,21 @@ function App() {
     },
   ];
 
+  const aboutLinks = [
+    {
+      date: "1996-2020",
+      imageLink: "",
+      subheading: "My life!",
+      bodytext: "hey",
+    },
+    {
+      date: "2020-2096",
+      imageLink: "",
+      subheading: "My life ends! Oh no",
+      bodytext: "bye",
+    },
+  ];
+
   return (
     <div className="App">
       <Navbar navbarLinks={navbarLinks}></Navbar>
@@ -54,7 +68,7 @@ function App() {
 
       <Portfolio portfolioLinks={portfolioLinks}></Portfolio>
 
-      <About></About>
+      <About aboutLinks={aboutLinks}></About>
 
       {/* <About2></About2> */}
 
