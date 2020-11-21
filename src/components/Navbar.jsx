@@ -1,6 +1,6 @@
 import React from "react";
 
-export default () => {
+export default ({ navbarLinks }) => {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
       <div className="container">
@@ -21,31 +21,14 @@ export default () => {
         </button>
         <div className="collapse navbar-collapse" id="navbarResponsive">
           <ul className="navbar-nav text-uppercase ml-auto">
-            {/* <li className="nav-item">
-              <a className="nav-link js-scroll-trigger" href="#services">
-                Services
-              </a>
-            </li> */}
-            <li className="nav-item">
-              <a className="nav-link js-scroll-trigger" href="#portfolio">
-                Portfolio
-              </a>
-            </li>
-            {/* <li className="nav-item">
-              <a className="nav-link js-scroll-trigger" href="#about">
-                About
-              </a>
-            </li> */}
-            {/* <li className="nav-item">
-              <a className="nav-link js-scroll-trigger" href="#team">
-                Team
-              </a>
-            </li> */}
-            <li className="nav-item">
-              <a className="nav-link js-scroll-trigger" href="#contact">
-                Contact
-              </a>
-            </li>
+            {navbarLinks &&
+              navbarLinks.map(({ title, link }, index) => (
+                <li className="nav-item">
+                  <a className="nav-link js-scroll-trigger" href={link}>
+                    {title}
+                  </a>
+                </li>
+              ))}
           </ul>
         </div>
       </div>

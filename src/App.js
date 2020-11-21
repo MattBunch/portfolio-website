@@ -12,6 +12,21 @@ import Footer from "./components/Footer";
 import "./App.css";
 
 function App() {
+  const navbarLinks = [
+    {
+      title: "Portfolio",
+      link: "#portfolio",
+    },
+    {
+      title: "About",
+      link: "#about",
+    },
+    {
+      title: "Contact",
+      link: "#contact",
+    },
+  ];
+
   const portfolioLinks = [
     {
       title: "Portfolio Website",
@@ -31,7 +46,7 @@ function App() {
 
   return (
     <div className="App">
-      <Navbar></Navbar>
+      <Navbar navbarLinks={navbarLinks}></Navbar>
 
       <Header></Header>
 
@@ -39,7 +54,7 @@ function App() {
 
       <Portfolio portfolioLinks={portfolioLinks}></Portfolio>
 
-      {/* <About></About> */}
+      <About></About>
 
       {/* <About2></About2> */}
 

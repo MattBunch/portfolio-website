@@ -22,11 +22,10 @@ Changed the primary coloring of the website from yellow to green.
 
 ### 21/11/2020
 
-I plan to make each component easily extendable, similar to the Portfolio component. Following components need to be editted:
+Each component made easily extendable, similar to the Portfolio component. Following components editted:
 
 - Navbar: each section needs its own tab and link in the navbar
 - About: each "About" node needs to be its own module
-- Services:
 
 Need to find some way of getting the About tab to have pitures inside of them.
 
