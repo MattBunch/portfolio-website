@@ -1,3 +1,9 @@
+/*!
+ * Start Bootstrap - Agency v5.2.1 (https://startbootstrap.com/template-overviews/agency)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
+ */
+
 import React from "react";
 import Navbar from "./components/Navbar";
 import Header from "./components/Header";
@@ -47,13 +53,13 @@ function App() {
     {
       date: "1996-2020",
       imageLink: "",
-      subheading: "My life!",
+      subheading: "entry one!",
       bodytext: "hey",
     },
     {
       date: "2020-2096",
       imageLink: "",
-      subheading: "My life ends! Oh no",
+      subheading: "entry two!",
       bodytext: "bye",
     },
   ];

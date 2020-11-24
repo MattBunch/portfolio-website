@@ -70,6 +70,7 @@ export default () => {
                     id="sendMessageButton"
                     className="btn btn-primary btn-xl text-uppercase"
                     type="submit"
+                    onClick={console.log(document.getElementById("message"))}
                   >
                     Send Message
                   </button>

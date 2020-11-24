@@ -1,8 +1,6 @@
 import React from "react";
 // import { nativeTouchData } from "react-dom/test-utils";
 
-// TODO: add link functionality to each project
-
 export default ({ portfolioLinks }) => {
   return (
     <section className="bg-light page-section" id="portfolio">
