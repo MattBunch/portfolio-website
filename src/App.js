@@ -15,6 +15,10 @@ import Py5 from "./components/Py5";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import "./App.css";
+import portfolioGIF from "./assets/img/portfolio-animation-min.gif";
+import matrixGIF from "./assets/img/matrix-animation-min.gif";
+import sortGIF from "./assets/img/bubble-sort-animation.gif";
+import WICTSLogo from "./assets/img/about/WICTS-Logo.png";
 
 function App() {
   const navbarLinks = [
@@ -37,30 +41,31 @@ function App() {
       title: "Portfolio Website",
       caption: "Web Development",
       clickLink: "https://github.com/MattBunch/portfolio-website",
-      photoLink:
-        "https://c8.alamy.com/comp/GWRJ0F/portfolio-written-by-hand-3d-illustration-realistic-hand-writing-on-GWRJ0F.jpg",
+      photoLink: portfolioGIF,
     },
 
     {
       title: "Digital Rain",
       caption: "Animation",
       clickLink: "https://github.com/MattBunch/Digital-Rain-Project",
-      photoLink: "https://i.ibb.co/Fn9V3GM/matriximage.png",
+      photoLink: matrixGIF,
+    },
+
+    {
+      title: "Sorting Visualization",
+      caption: "Data Structures",
+      clickLink: "https://github.com/MattBunch/Sorting-Visualization",
+      photoLink: sortGIF,
     },
   ];
 
   const aboutLinks = [
     {
-      date: "1996-2020",
-      imageLink: "",
-      subheading: "entry one!",
-      bodytext: "hey",
-    },
-    {
-      date: "2020-2096",
-      imageLink: "",
-      subheading: "entry two!",
-      bodytext: "bye",
+      date: "July 2020 - June 2021",
+      imageLink: WICTSLogo,
+      subheading: "Master of Software Development",
+      bodytext:
+        "At the Wellington ICT School, I learned core competencies of programming including Java, version control, networking, databases, security, web systems, Agile, development methodologies, & design patterns.",
     },
   ];
 

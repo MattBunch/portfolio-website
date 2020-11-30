@@ -8,7 +8,7 @@ export default () => {
           <div className="col-lg-12 text-center">
             <h2 className="section-heading text-uppercase">Contact me</h2>
             <h3 className="section-subheading text-muted">
-              Let your voice be heard! *Note I will probably not respond.
+              Let your voice be heard!
             </h3>
           </div>
         </div>

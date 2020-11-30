@@ -29,6 +29,12 @@ Each component made easily extendable, similar to the Portfolio component. Follo
 
 Need to find some way of getting the About tab to have pitures inside of them.
 
+### 30/11/2020
+
+Portfolio images replaced with gifs.
+
+Timeline image added
+
 ## Available Scripts
 
 In the project directory, you can run:
