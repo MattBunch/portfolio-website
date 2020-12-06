@@ -13,6 +13,7 @@ import About from "./components/About";
 import Team from "./components/Team";
 import Py5 from "./components/Py5";
 import Contact from "./components/Contact";
+// import ContactForm from "./components/ContactForm";
 import Footer from "./components/Footer";
 import "./App.css";
 import portfolioGIF from "./assets/img/portfolio-animation-min-size.gif";
