@@ -15,9 +15,9 @@ import Py5 from "./components/Py5";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import "./App.css";
-import portfolioGIF from "./assets/img/portfolio-animation-min.gif";
-import matrixGIF from "./assets/img/matrix-animation-min.gif";
-import sortGIF from "./assets/img/bubble-sort-animation.gif";
+import portfolioGIF from "./assets/img/portfolio-animation-min-size.gif";
+import matrixGIF from "./assets/img/matrix-animation-min-size.gif";
+import sortGIF from "./assets/img/bubble-sort-animation-min.gif";
 import WICTSLogo from "./assets/img/about/WICTS-Logo.png";
 
 function App() {
