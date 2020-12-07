@@ -1,6 +1,6 @@
 import React from "react";
 
-export default () => {
+export default ({ footerLinks }) => {
   return (
     <footer className="footer">
       <div className="container">
@@ -12,21 +12,14 @@ export default () => {
           </div>
           <div className="col-md-4">
             <ul className="list-inline social-buttons">
-              <li className="list-inline-item">
-                <a href="#something">
-                  <i className="fa fa-twitter"></i>
-                </a>
-              </li>
-              <li className="list-inline-item">
-                <a href="#something">
-                  <i className="fa fa-facebook-f"></i>
-                </a>
-              </li>
-              <li className="list-inline-item">
-                <a href="#something">
-                  <i className="fa fa-linkedin-in"></i>
-                </a>
-              </li>
+              {footerLinks &&
+                footerLinks.map(({ link, icon }, index) => (
+                  <li className="list-inline-item">
+                    <a href={link}>
+                      <i className={icon}></i>
+                    </a>
+                  </li>
+                ))}
             </ul>
           </div>
           <div className="col-md-4">

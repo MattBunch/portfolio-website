@@ -5,6 +5,9 @@
  */
 
 import React from "react";
+
+import "./App.css";
+
 import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import Services from "./components/Services";
@@ -14,10 +17,11 @@ import Team from "./components/Team";
 import Py5 from "./components/Py5";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/Footer";
-import "./App.css";
+
 import portfolioGIF from "./assets/img/portfolio-animation-min-size.gif";
 import matrixGIF from "./assets/img/matrix-animation-min-size.gif";
 import sortGIF from "./assets/img/bubble-sort-animation-min.gif";
+
 import WICTSLogo from "./assets/img/about/WICTS-Logo.png";
 
 function App() {
@@ -69,6 +73,26 @@ function App() {
     },
   ];
 
+  const linkedinLink = "https://nz.linkedin.com/in/matthew-bunch-b5bab71b9";
+  const linkedinLogo = "fa fa-linkedin";
+
+  const githubLink = "https://github.com/MattBunch/";
+  const githubLogo = "fa fa-github";
+
+  // const twitterLogo = "fa fa-twitter";
+  // const facebookLogo = "fa fa-facebook-f";
+
+  const footerLinks = [
+    {
+      link: linkedinLink,
+      icon: linkedinLogo,
+    },
+    {
+      link: githubLink,
+      icon: githubLogo,
+    },
+  ];
+
   return (
     <div className="App">
       <Navbar navbarLinks={navbarLinks}></Navbar>
@@ -89,7 +113,7 @@ function App() {
 
       <Contact></Contact>
 
-      <Footer></Footer>
+      <Footer footerLinks={footerLinks}></Footer>
     </div>
   );
 }

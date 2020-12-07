@@ -1,5 +1,5 @@
 import React from "react";
-import ContactForm from "./ContactForm";
+// import ContactForm from "./ContactForm";
 import ContactIcons from "./ContactIcons";
 
 export default () => {
@@ -15,8 +15,8 @@ export default () => {
           </div>
         </div>
         <div className="row">
-          <ContactForm></ContactForm>
-          {/* <ContactIcons></ContactIcons> */}
+          <ContactIcons></ContactIcons>
+          {/* <ContactForm></ContactForm> */}
         </div>
       </div>
     </section>

@@ -31,9 +31,16 @@ Need to find some way of getting the About tab to have pitures inside of them.
 
 ### 30/11/2020
 
-Portfolio images replaced with gifs.
+- Portfolio images replaced with gifs.
+- Timeline image added.
 
-Timeline image added
+### 7/12/2020
+
+- Gif files compressed to be below 3mb. Can be further compressed if needed.
+- Contact page split into further components to remove form and make way for Github and Linkedin images.
+- Github and LinkedIn icons added to Footer. Considering removing contact page.
+- Footer made modular to support any number of icons.
+- Added my name to header text.
 
 ## Available Scripts
 

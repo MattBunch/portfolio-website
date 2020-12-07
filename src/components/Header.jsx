@@ -5,7 +5,9 @@ export default () => {
     <header className="masthead">
       <div className="container">
         <div className="intro-text">
-          <div className="intro-lead-in">Welcome To My Portfolio!</div>
+          <div className="intro-lead-in">
+            Welcome to the Portfolio of Matt Bunch!
+          </div>
           <div className="intro-heading text-uppercase">
             It's Nice To Meet You
           </div>
