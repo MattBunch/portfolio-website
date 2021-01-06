@@ -2,13 +2,20 @@
 
 My personal portfolio website.
 
-Special thanks to Lavish Web Creations for the inspiration and tutorial for how to get started.
-
-https://youtu.be/RcfvUWJqHOs
-
 Thanks for Bootstrap for the free theme.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Tech stack used:
+
+- React
+- Bootstrap
+- HTML
+- CSS
+
+## Software used:
+
+- Visual Studio Code
 
 ## Devlog:
 
