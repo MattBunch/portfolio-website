@@ -1,31 +1,60 @@
 # Matt Bunch Portfolio Website
 
-My personal portfolio website.
+My personal portfolio website built to display portfolio items (such as Digital Rain Animation and Sorting Visualizer), education, work experience and contact information.
+
+![Screenshot 1](https://i.ibb.co/dD9RpLB/Screenshot1.png?raw=true "Screenshot1")
+
+![Screenshot 2](https://i.ibb.co/zH9gn95/Screenshot2.png?raw=true "Screenshot2")
+
+![Screenshot 3](https://i.ibb.co/yPbGy8y/Screenshot3.png?raw=true "Screenshot3")
+
+![Screenshot 4](https://i.ibb.co/s3rh8Fk/Screenshot4.png.png?raw=true "Screenshot4")
 
 Thanks for Bootstrap for the free theme.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Website is designed to be modular and easily expandable for adding future portfolio items, experience and contact links.
+
+Optional components such as Services and Teams can be added to the page by uncommenting them in `app.js`.
+
+## Test cases
+
+Tested on:
+
+- School laptop
+- Android A15
+
+### Current live page:
+
+https://portfolio-website-01-300900.web.app/
+
+### Current github page:
+
+https://github.com/MattBunch/portfolio-website
+
 ## Tech stack used:
 
 - React
-- Bootstrap
 - HTML
 - CSS
+- Bootstrap
+- Firebase
 
 ## Software used:
 
 - Visual Studio Code
+- ScreenToGif to capture gif images
 
 ## Devlog:
 
 ### 20/11/2020
 
-Beginning of the program. Followed the instructions of the tutorial video. Afterwards, I made each individual element a component similar to the Portfolio component. This makes it easy to drop each individual component in and out of the website by just commenting and uncommenting out the components inside of `App.js`.
+Beginning of the program. Took the core Bootstrap template and added it to my project, then made Portfolio component based on the bootstrap code. Afterwards, I made each individual element a component similar to the Portfolio component. This makes it easy to drop each individual component in and out of the website by just commenting and uncommenting out the components inside of `App.js`.
 
 Added my own custom photos.
 
-Changed the primary coloring of the website from yellow to green.
+Changed the primary coloring of the website from yellow to green in the `bootstrap.min.css` file.
 
 ### 21/11/2020
 
@@ -48,6 +77,16 @@ Need to find some way of getting the About tab to have pitures inside of them.
 - Github and LinkedIn icons added to Footer. Considering removing contact page.
 - Footer made modular to support any number of icons.
 - Added my name to header text.
+
+### 6/01/2021
+
+- Website hosted through Firebase at https://portfolio-website-01-300900.web.app & https://portfolio-website-01-300900.firebaseapp.com/
+- Need to register a domain name like https://mattbunch.nz for my website in the future so I can put the link on my CV for applications.
+
+### 7/01/2021
+
+- Images added to README file.
+- Need to configure Cloud Functions to scale for normal traffic to limit the number of concurrent instances. Further configurations are needed for the final deployment for the public website.
 
 ## Available Scripts
 

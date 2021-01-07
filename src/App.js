@@ -2,6 +2,12 @@
  * Start Bootstrap - Agency v5.2.1 (https://startbootstrap.com/template-overviews/agency)
  * Copyright 2013-2020 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
+ * 
+  <p>
+ * @author      Matt Bunch
+ * @version     1.0
+ * @since       2020-11-20
+  <p>
  */
 
 import React from "react";
@@ -10,10 +16,10 @@ import "./App.css";
 
 import Navbar from "./components/Navbar";
 import Header from "./components/Header";
-import Services from "./components/Services";
+// import Services from "./components/Services";
 import Portfolio from "./components/Portfolio";
 import About from "./components/About";
-import Team from "./components/Team";
+// import Team from "./components/Team";
 import Py5 from "./components/Py5";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/Footer";
@@ -79,7 +85,10 @@ function App() {
   const githubLink = "https://github.com/MattBunch/";
   const githubLogo = "fa fa-github";
 
+  // const twitterLink = "";
   // const twitterLogo = "fa fa-twitter";
+
+  // const facebookLink = "";
   // const facebookLogo = "fa fa-facebook-f";
 
   const footerLinks = [
@@ -104,8 +113,6 @@ function App() {
       <Portfolio portfolioLinks={portfolioLinks}></Portfolio>
 
       <About aboutLinks={aboutLinks}></About>
-
-      {/* <About2></About2> */}
 
       {/* <Team></Team> */}
 
