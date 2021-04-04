@@ -90,6 +90,10 @@ Need to find some way of getting the About tab to have pitures inside of them.
 - Need to configure Cloud Functions to scale for normal traffic to limit the number of concurrent instances. Further configurations are needed for the final deployment for the public website.
 - Consider having database/SQL functionality where the `portfolioLinks`, `aboutLinks` etc. are called from the database to be rendered on the page. Would be a good example of my useage at mySQL database skills, and would be even simpler to update without having to hardcode the Strings in the `App.js` file.
 
+### 4/04/2021
+
+- Compartmentalized the data that was formerly sitting inside of App.js into seperate js files inside of data folder.
+
 ## Available Scripts
 
 In the project directory, you can run:
